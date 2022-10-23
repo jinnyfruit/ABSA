@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.15.0-50-generic-x86_64-with-glibc2.31",
+    "python": "3.10.4",
+    "heartbeatAt": "2022-10-21T09:01:24.133676",
+    "startedAt": "2022-10-21T09:01:23.538346",
+    "docker": null,
+    "gpu": "NVIDIA TITAN Xp",
+    "gpu_count": 2,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/nlplab/Devlopment/2022_korean_AI/JiWoo/BASELINE/koBERT/sentiment_analysis.py",
+    "codePath": "Devlopment/2022_korean_AI/JiWoo/BASELINE/koBERT/sentiment_analysis.py",
+    "git": {
+        "remote": "https://github.com/SWAI-trio/NLP_Competition.git",
+        "commit": null
+    },
+    "email": "ahdbsgh2@naver.com",
+    "root": "/home/nlplab",
+    "host": "nlplab-System-Product-Name",
+    "username": "nlplab",
+    "executable": "/home/nlplab/anaconda3/envs/jiwoo/bin/python"
+}

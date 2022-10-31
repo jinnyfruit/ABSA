@@ -1,0 +1,14 @@
+
+test_phase start . . .
+polarity_data_count:  0
+entity_property_data_count:  44667
+Traceback (most recent call last):
+  File "/home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/sentiment_analysis.py", line 740, in <module>
+    test_sentiment_analysis()
+  File "/home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/sentiment_analysis.py", line 695, in test_sentiment_analysis
+    polarity_test_dataloader = DataLoader(polarity_test_data, shuffle=True,
+  File "/home/nlplab/anaconda3/envs/jiwoo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 353, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+  File "/home/nlplab/anaconda3/envs/jiwoo/lib/python3.10/site-packages/torch/utils/data/sampler.py", line 107, in __init__
+    raise ValueError("num_samples should be a positive integer "
+ValueError: num_samples should be a positive integer value, but got num_samples=0

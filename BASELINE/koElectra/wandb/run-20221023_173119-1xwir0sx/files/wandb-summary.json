@@ -1,0 +1,1 @@
+{"Entity property Avg train loss": 0.17974880633272342, "_timestamp": 1666519972.7510617, "_runtime": 6093.234034776688, "_step": 2, "train - entity_property accuracy: ": 0.9488359409619253, "train - entity_property macro_accuracy: ": 18557.333333333332, "_wandb": {"runtime": 6092}}

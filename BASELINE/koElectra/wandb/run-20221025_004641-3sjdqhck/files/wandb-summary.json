@@ -1,0 +1,1 @@
+{"test polarity accuracy: ": 0.9730179880079947, "_timestamp": 1666628541.4272332, "_runtime": 2140.124444246292, "_step": 4, "test polarity macro_accuracy: ": 973.6666666666666, "test polarity f1_score: ": [0.9868243243243243, 0.0, 0.0], "test polarity f1_score_micro: ": 0.9730179880079947, "test polarity f1_score_macro: ": 0.32894144144144144, "_wandb": {"runtime": 2139}}

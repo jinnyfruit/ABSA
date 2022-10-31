@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koBERT/sentiment_analysis_test.py", line 722, in <module>
+    train_sentiment_analysis()
+  File "/home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koBERT/sentiment_analysis_test.py", line 347, in train_sentiment_analysis
+    train_data = jsonlload(train_path)
+  File "/home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koBERT/sentiment_analysis_test.py", line 98, in jsonlload
+    with open(fname, encoding=encoding) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nlplab/Devlopment/2022_korean_AI/JiWoo/BASELINE/data/nikluge-sa-2022-train.jsonl'
+training_phase start . . .
+train_sentiment_analysis
+entity property model would be saved at  /home/nlplab/Devlopment/2022_korean_AI/JiWoo/BASELINE/koBERT/saved_models/category_extraction
+polarity model would be saved at  /home/nlplab/Devlopment/2022_korean_AI/JiWoo/BASELINE/koBERT/saved_models/polarity_classification
+loading train data

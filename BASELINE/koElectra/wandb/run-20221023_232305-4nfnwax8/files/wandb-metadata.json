@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.15.0-50-generic-x86_64-with-glibc2.31",
+    "python": "3.10.4",
+    "heartbeatAt": "2022-10-23T14:23:06.153638",
+    "startedAt": "2022-10-23T14:23:05.045230",
+    "docker": null,
+    "gpu": "NVIDIA TITAN Xp",
+    "gpu_count": 2,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koBERT/sentiment_analysis.py",
+    "codePath": "BASELINE/koBERT/sentiment_analysis.py",
+    "git": {
+        "remote": "https://github.com/jinnyfruit/ABSA_Code.git",
+        "commit": "63b740d1171d11b67a039cf881d89913bfeb9234"
+    },
+    "email": "ahdbsgh2@naver.com",
+    "root": "/home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code",
+    "host": "nlplab-System-Product-Name",
+    "username": "nlplab",
+    "executable": "/home/nlplab/anaconda3/envs/jiwoo/bin/python"
+}

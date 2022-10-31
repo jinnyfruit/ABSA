@@ -1,0 +1,150 @@
+2022-10-31 12:34:41,812 INFO    StreamThr :2837928 [internal.py:wandb_internal():88] W&B internal server running at pid: 2837928, started at: 2022-10-31 12:34:41.812221
+2022-10-31 12:34:41,813 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: status
+2022-10-31 12:34:41,814 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: status
+2022-10-31 12:34:41,815 DEBUG   SenderThread:2837928 [sender.py:send():303] send: header
+2022-10-31 12:34:41,815 INFO    WriterThread:2837928 [datastore.py:open_for_write():75] open: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/run-niwhvtj8.wandb
+2022-10-31 12:34:41,817 DEBUG   SenderThread:2837928 [sender.py:send():303] send: run
+2022-10-31 12:34:42,370 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: check_version
+2022-10-31 12:34:42,371 INFO    SenderThread:2837928 [dir_watcher.py:__init__():216] watching files in: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files
+2022-10-31 12:34:42,371 INFO    SenderThread:2837928 [sender.py:_start_run_threads():928] run started: niwhvtj8 with start time 1667187281.810611
+2022-10-31 12:34:42,371 DEBUG   SenderThread:2837928 [sender.py:send():303] send: summary
+2022-10-31 12:34:42,371 INFO    SenderThread:2837928 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-31 12:34:42,371 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: check_version
+2022-10-31 12:34:42,416 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: run_start
+2022-10-31 12:34:42,419 DEBUG   HandlerThread:2837928 [meta.py:__init__():34] meta init
+2022-10-31 12:34:42,420 DEBUG   HandlerThread:2837928 [meta.py:__init__():49] meta init done
+2022-10-31 12:34:42,420 DEBUG   HandlerThread:2837928 [meta.py:probe():215] probe
+2022-10-31 12:34:42,427 DEBUG   HandlerThread:2837928 [meta.py:_setup_git():205] setup git
+2022-10-31 12:34:42,433 DEBUG   HandlerThread:2837928 [meta.py:_setup_git():212] setup git done
+2022-10-31 12:34:42,433 DEBUG   HandlerThread:2837928 [meta.py:_save_pip():53] save pip
+2022-10-31 12:34:42,433 DEBUG   HandlerThread:2837928 [meta.py:_save_pip():67] save pip done
+2022-10-31 12:34:42,433 DEBUG   HandlerThread:2837928 [meta.py:_save_conda():74] save conda
+2022-10-31 12:34:43,373 INFO    Thread-13 :2837928 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/requirements.txt
+2022-10-31 12:34:43,373 INFO    Thread-13 :2837928 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/wandb-summary.json
+2022-10-31 12:34:43,373 INFO    Thread-13 :2837928 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/conda-environment.yaml
+2022-10-31 12:34:45,187 DEBUG   HandlerThread:2837928 [meta.py:_save_conda():84] save conda done
+2022-10-31 12:34:45,187 DEBUG   HandlerThread:2837928 [meta.py:probe():253] probe done
+2022-10-31 12:34:45,189 DEBUG   SenderThread:2837928 [sender.py:send():303] send: files
+2022-10-31 12:34:45,190 INFO    SenderThread:2837928 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-31 12:34:45,194 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-31 12:34:45,194 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: stop_status
+2022-10-31 12:34:45,373 INFO    Thread-13 :2837928 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/conda-environment.yaml
+2022-10-31 12:34:45,373 INFO    Thread-13 :2837928 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/wandb-metadata.json
+2022-10-31 12:34:45,445 DEBUG   SenderThread:2837928 [sender.py:send():303] send: telemetry
+2022-10-31 12:34:45,846 INFO    Thread-17 :2837928 [upload_job.py:push():143] Uploaded file /tmp/tmpkvzn_hlwwandb/24z322ja-wandb-metadata.json
+2022-10-31 12:34:46,373 INFO    Thread-13 :2837928 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/output.log
+2022-10-31 12:34:48,374 INFO    Thread-13 :2837928 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/output.log
+2022-10-31 12:35:00,446 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-31 12:35:00,447 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: stop_status
+2022-10-31 12:35:06,379 INFO    Thread-13 :2837928 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/output.log
+2022-10-31 12:35:07,286 DEBUG   SenderThread:2837928 [sender.py:send():303] send: exit
+2022-10-31 12:35:07,286 INFO    SenderThread:2837928 [sender.py:send_exit():442] handling exit code: 1
+2022-10-31 12:35:07,286 INFO    SenderThread:2837928 [sender.py:send_exit():444] handling runtime: 24
+2022-10-31 12:35:07,286 INFO    SenderThread:2837928 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-31 12:35:07,287 INFO    SenderThread:2837928 [sender.py:send_exit():450] send defer
+2022-10-31 12:35:07,287 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:07,287 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-31 12:35:07,287 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:07,287 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-10-31 12:35:07,287 INFO    SenderThread:2837928 [sender.py:transition_state():463] send defer: 1
+2022-10-31 12:35:07,287 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:07,287 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-31 12:35:07,375 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:07,375 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-10-31 12:35:07,375 INFO    SenderThread:2837928 [sender.py:transition_state():463] send defer: 2
+2022-10-31 12:35:07,375 DEBUG   SenderThread:2837928 [sender.py:send():303] send: stats
+2022-10-31 12:35:07,375 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:07,376 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-31 12:35:07,376 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:07,376 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-10-31 12:35:07,376 INFO    SenderThread:2837928 [sender.py:transition_state():463] send defer: 3
+2022-10-31 12:35:07,376 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:07,376 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-31 12:35:07,376 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:07,376 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-10-31 12:35:07,376 INFO    SenderThread:2837928 [sender.py:transition_state():463] send defer: 4
+2022-10-31 12:35:07,376 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:07,376 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-31 12:35:07,376 DEBUG   SenderThread:2837928 [sender.py:send():303] send: summary
+2022-10-31 12:35:07,377 INFO    SenderThread:2837928 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-31 12:35:07,377 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:07,377 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-10-31 12:35:07,377 INFO    SenderThread:2837928 [sender.py:transition_state():463] send defer: 5
+2022-10-31 12:35:07,377 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:07,377 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-31 12:35:07,377 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:07,377 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-10-31 12:35:07,382 INFO    Thread-13 :2837928 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/wandb-summary.json
+2022-10-31 12:35:07,661 INFO    SenderThread:2837928 [sender.py:transition_state():463] send defer: 6
+2022-10-31 12:35:07,662 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:07,662 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-31 12:35:07,662 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:07,662 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-10-31 12:35:08,286 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-31 12:35:08,382 INFO    Thread-13 :2837928 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/output.log
+2022-10-31 12:35:08,382 INFO    Thread-13 :2837928 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/config.yaml
+2022-10-31 12:35:10,121 INFO    SenderThread:2837928 [sender.py:transition_state():463] send defer: 7
+2022-10-31 12:35:10,121 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: poll_exit
+2022-10-31 12:35:10,122 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:10,122 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-31 12:35:10,122 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:10,122 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-10-31 12:35:10,122 INFO    SenderThread:2837928 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-31 12:35:10,382 INFO    Thread-13 :2837928 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/output.log
+2022-10-31 12:35:10,383 INFO    SenderThread:2837928 [dir_watcher.py:finish():392] scan: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files
+2022-10-31 12:35:10,383 INFO    SenderThread:2837928 [dir_watcher.py:finish():406] scan save: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/wandb-metadata.json wandb-metadata.json
+2022-10-31 12:35:10,383 INFO    SenderThread:2837928 [dir_watcher.py:finish():406] scan save: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/conda-environment.yaml conda-environment.yaml
+2022-10-31 12:35:10,383 INFO    SenderThread:2837928 [dir_watcher.py:finish():406] scan save: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/wandb-summary.json wandb-summary.json
+2022-10-31 12:35:10,386 INFO    SenderThread:2837928 [dir_watcher.py:finish():406] scan save: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/requirements.txt requirements.txt
+2022-10-31 12:35:10,386 INFO    SenderThread:2837928 [dir_watcher.py:finish():406] scan save: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/config.yaml config.yaml
+2022-10-31 12:35:10,391 INFO    SenderThread:2837928 [dir_watcher.py:finish():406] scan save: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/output.log output.log
+2022-10-31 12:35:10,393 INFO    SenderThread:2837928 [sender.py:transition_state():463] send defer: 8
+2022-10-31 12:35:10,396 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:10,396 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-31 12:35:10,396 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:10,397 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-10-31 12:35:10,397 INFO    SenderThread:2837928 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-31 12:35:11,069 INFO    Thread-21 :2837928 [upload_job.py:push():143] Uploaded file /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/config.yaml
+2022-10-31 12:35:11,071 INFO    Thread-20 :2837928 [upload_job.py:push():143] Uploaded file /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/requirements.txt
+2022-10-31 12:35:11,087 INFO    Thread-19 :2837928 [upload_job.py:push():143] Uploaded file /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/wandb-summary.json
+2022-10-31 12:35:11,121 INFO    Thread-22 :2837928 [upload_job.py:push():143] Uploaded file /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/output.log
+2022-10-31 12:35:11,125 INFO    Thread-18 :2837928 [upload_job.py:push():143] Uploaded file /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/files/conda-environment.yaml
+2022-10-31 12:35:11,325 INFO    Thread-12 (_thread_body):2837928 [sender.py:transition_state():463] send defer: 9
+2022-10-31 12:35:11,325 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:11,325 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-31 12:35:11,325 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:11,326 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-10-31 12:35:11,326 INFO    SenderThread:2837928 [file_pusher.py:join():173] waiting for file pusher
+2022-10-31 12:35:11,326 INFO    SenderThread:2837928 [sender.py:transition_state():463] send defer: 10
+2022-10-31 12:35:11,326 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:11,326 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-31 12:35:11,326 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:11,326 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-10-31 12:35:11,535 INFO    SenderThread:2837928 [sender.py:transition_state():463] send defer: 11
+2022-10-31 12:35:11,536 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:11,536 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-31 12:35:11,536 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:11,536 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-10-31 12:35:11,536 INFO    SenderThread:2837928 [sender.py:transition_state():463] send defer: 12
+2022-10-31 12:35:11,536 DEBUG   SenderThread:2837928 [sender.py:send():303] send: final
+2022-10-31 12:35:11,536 DEBUG   SenderThread:2837928 [sender.py:send():303] send: footer
+2022-10-31 12:35:11,536 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: defer
+2022-10-31 12:35:11,537 INFO    HandlerThread:2837928 [handler.py:handle_request_defer():161] handle defer: 12
+2022-10-31 12:35:11,537 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: defer
+2022-10-31 12:35:11,537 INFO    SenderThread:2837928 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-10-31 12:35:11,537 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-31 12:35:11,537 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: server_info
+2022-10-31 12:35:11,538 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: poll_exit
+2022-10-31 12:35:11,538 DEBUG   SenderThread:2837928 [sender.py:send_request():317] send_request: server_info
+2022-10-31 12:35:11,540 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-31 12:35:11,541 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-31 12:35:12,023 INFO    MainThread:2837928 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-31 12:35:12,023 INFO    MainThread:2837928 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-31 12:35:12,023 INFO    MainThread:2837928 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-10-31 12:35:12,024 DEBUG   HandlerThread:2837928 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-31 12:35:12,024 INFO    HandlerThread:2837928 [handler.py:finish():814] shutting down handler
+2022-10-31 12:35:12,536 INFO    WriterThread:2837928 [datastore.py:close():279] close: /home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/wandb/run-20221031_123441-niwhvtj8/run-niwhvtj8.wandb
+2022-10-31 12:35:13,023 INFO    SenderThread:2837928 [sender.py:finish():1331] shutting down sender
+2022-10-31 12:35:13,023 INFO    SenderThread:2837928 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-31 12:35:13,023 INFO    SenderThread:2837928 [file_pusher.py:join():173] waiting for file pusher
+2022-10-31 12:35:13,026 INFO    MainThread:2837928 [internal.py:handle_exit():78] Internal process exited

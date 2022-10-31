@@ -1,0 +1,20 @@
+
+test_phase start . . .
+Traceback (most recent call last):
+  File "/home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/sentiment_analysis.py", line 741, in <module>
+    test_sentiment_analysis()
+  File "/home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/sentiment_analysis.py", line 692, in test_sentiment_analysis
+    entity_property_test_data, polarity_test_data = get_dataset(test_data, tokenizer, max_len)
+  File "/home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/sentiment_analysis.py", line 292, in get_dataset
+    entity_property_data_dict, polarity_data_dict = tokenize_and_align_labels(tokenizer, utterance['sentence_form'], utterance['annotation'], max_len)
+  File "/home/nlplab/Devlopment/2022_korean_AI/JiWoo/ABSA_Code/BASELINE/koElectra/sentiment_analysis.py", line 245, in tokenize_and_align_labels
+    tokenized_data = tokenizer(form, pair, padding='max_length', max_length=max_len, truncation=True)   #두개 붙여서 결과값 저장
+  File "/home/nlplab/anaconda3/envs/jiwoo/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2475, in __call__
+    return self.encode_plus(
+  File "/home/nlplab/anaconda3/envs/jiwoo/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2548, in encode_plus
+    return self._encode_plus(
+  File "/home/nlplab/anaconda3/envs/jiwoo/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 498, in _encode_plus
+    batched_output = self._batch_encode_plus(
+  File "/home/nlplab/anaconda3/envs/jiwoo/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 425, in _batch_encode_plus
+    encodings = self._tokenizer.encode_batch(
+KeyboardInterrupt
